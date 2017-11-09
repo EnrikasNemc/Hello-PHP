@@ -2,11 +2,8 @@
 
 @require_once('variables.php');
 
-function name (string $name): string
-{
-	return "What do you like? $name \n";
+function things($this){
+	return "this is good $this <br>";
 }
-
-
-echo name('I like Bacon');
-echo $year;				
+echo things("Stuff");	
+echo $year;		
